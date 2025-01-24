@@ -1,0 +1,93 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Jacob Rosenlund</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Diligent College Student looking for employment. Hard-working, and friendly in fast-paced environments. Strives to establish a culture of trust and cooperation with customers and co-workers.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Accomplishments</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Eagle Scout"
+    >
+      Earned the rank of Eagle Scout by heading and directing the demolition and construction of a nature trail footbridge over the course of a week at the Kleb Woods Nature Preserve, Tomball, Texas. Helped lead 12 different people to accomplish this task which resulted in matching the requirements and designs of the lead Park Ranger.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Karate Black-belt"
+    >
+      Over the space of seven years, worked at and achieved the rank of black belt in the Bushido Kai system of Karate at Champions Bushido, Spring, Texas.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Housekeeper at Jacob Lake Inn"
+      subtitle="From 04/2024 to 09/2025 at Jacob Lake Inn, Jacob Lake, Arizona"
+    >
+      Worked as a member of the Jacob Lake Housekeeping Crew who helped provide clean living spaces for visiting patrons.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Custodian at BYU Provo"
+      subtitle="From 09/2022 to 04/2023 at BYU, Provo, Utah"
+    >
+      Worked with a cleaning crew to maintain Kimball Tower while also working on studies.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Missionary at The Church of Jesus Christ of Latter-day Saints"
+      subtitle="From 11/2020 to 11/2022 at The Church of Jesus Christ of Latter-day Saints, Denver, Colorado"
+    >
+      Spent 70 hours a week in a tight-knit team serving the community of Denver. Learned how to utilize computers and online resources to help with community outreach, as well as provided uplifting and positive interactions with others. Gained goal-setting and achieving skills to help provide direction and self-motivation.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Factory Floor Worker and Machine Operator at Care Gear"
+      subtitle="From 06/2020 to 10/2020 at Care Gear, Houston, Texas"
+    >
+      Worked 40 hours a week to manufacture Personal Protection Equipment such as isolation gowns. Also maintained and stocked the plastic-cutting machine that was used.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Ice Cream Freezer, Inventory Stocker, and Cashier"
+      subtitle="From 07/2018 to 11/2018 at SubZero Nitrogen Ice Cream, Spring, Texas"
+    >
+      Used liquid nitrogen to freeze ice cream, custom-made, for customers in an engaging manner. Gained skills in cleaning and general upkeep, learned how to manage inventory and how to handle customer facing interactions.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="High School Diploma"
+      subtitle="08/2016 to 05/2020 at iSchool High, Spring, Texas"
+    >
+      Graduated as a member of the NHS.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Leadership</li>
+    <li>Time Management</li>
+    <li>Interpersonal Communication</li>
+    <li>Teamwork</li>
+    <li>Adaptability</li>
+  </ul>
+</BaseLayout>
