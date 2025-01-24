@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "73a302919d98a418",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6d3e1afaf39f918",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89503a59ebc02387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Astro Experiments.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Astro Experiments"
+            }
+          },
+          {
+            "id": "3295321964d42559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JacobRosenlund.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JacobRosenlund"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2943e093ba33931",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0191ce6d64c3bf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d07535e0475b68e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "36c4bc5bfd1c3454",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0fe42a55762c6c84",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "10536fe303af3111",
+    "type": "split",
+    "children": [
+      {
+        "id": "50696d142624a736",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8551eb84b1aa459a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/pages/Test Page.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Test Page"
+            }
+          },
+          {
+            "id": "9df800dc941f37a7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/pages/Test Page.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Test Page"
+            }
+          },
+          {
+            "id": "b4bfc6cb656ed195",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "642c701ceef3794c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/pages/Test Page.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Test Page"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3295321964d42559",
+  "lastOpenFiles": [
+    "dist/sitemap-0.xml",
+    "dist/sitemap-index.xml",
+    "dist/index.html",
+    "dist/projects/index.html",
+    "dist/projects",
+    "dist/cv/index.html",
+    "dist/cv",
+    "dist/blog/index.html",
+    "dist/blog/astro-experiments/index.html",
+    "dist/blog/astro-experiments",
+    "dist/blog/tag/learning/index.html",
+    "dist/social_img.webp",
+    "dist/profile.webp",
+    "dist/post_img.webp",
+    "dist/itemPreview.webp",
+    "dist/favicon.svg",
+    "dist/astro-adventure.webp",
+    "JacobRosenlund.md",
+    "src/content/blog/Astro Experiments.md",
+    "README.md",
+    "src/content/projects/Astro Experiments.md",
+    "public/astro-adventure.webp",
+    "src/content/blog/post3.md",
+    "src/content/blog/post2.md",
+    "src/content/blog/post1.md",
+    "public/astro-adventure.jpeg",
+    "astro-adventure.jpeg",
+    "node_modules/@types/nlcst/node_modules/@types/unist/README.md",
+    "node_modules/@rollup/pluginutils/node_modules/picomatch/README.md",
+    "node_modules/tailwindcss/src/postcss-plugins/nesting/README.md",
+    "node_modules/tailwindcss/lib/postcss-plugins/nesting/README.md",
+    "node_modules/sharp/vendor/8.14.5/linux-x64/THIRD-PARTY-NOTICES.md",
+    "node_modules/unist-util-visit-children/node_modules/@types/unist/README.md",
+    "node_modules/parse-entities/node_modules/@types/unist/README.md",
+    "node_modules/retext/node_modules/@types/unist/README.md",
+    "node_modules/retext-smartypants/node_modules/@types/unist/README.md",
+    "node_modules/@babel/core/node_modules/semver/README.md",
+    "node_modules/@babel/helper-compilation-targets/node_modules/semver/README.md",
+    "node_modules/astro/node_modules/@astrojs/prism/README.md",
+    "node_modules/astro/node_modules/@types/nlcst/README.md",
+    "node_modules/unist-util-modify-children/node_modules/@types/unist/README.md",
+    "node_modules/@isaacs/cliui/node_modules/emoji-regex/README.md",
+    "node_modules/@isaacs/cliui/node_modules/string-width/readme.md",
+    "node_modules/retext-latin/node_modules/@types/unist/README.md",
+    "node_modules/sitemap/node_modules/@types/node/README.md"
+  ]
+}
