@@ -11,7 +11,7 @@ import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-lin
 
 // https://astro.build/config
 export default defineConfig({
-  site: "jacobrosenlund.com",
+  site: "https://jacobrosenlund.com",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [
