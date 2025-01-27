@@ -12,22 +12,27 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.0.3",
+    "@astrojs/mdx": "^2.3.1",
+    "@astrojs/react": "^4.2.0",
     "@astrojs/rss": "^3.0.0",
-    "@astrojs/sitemap": "^3.0.1",
-    "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.5",
     "@r4ai/remark-callout": "^0.6.2",
-    "astro": "^4.0.2",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "astro": "^4.16.18",
     "astro-rehype-relative-markdown-links": "^0.18.1",
-    "daisyui": "^4.4.10",
-    "dayjs": "^1.11.9",
+    "daisyui": "^4.12.23",
+    "dayjs": "^1.11.13",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.0",
     "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.16"
   },
   "packageManager": "pnpm@9.15.4"
 }
