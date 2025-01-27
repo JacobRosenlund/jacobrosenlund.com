@@ -1,0 +1,72 @@
+<div>
+    <div class="theme">
+        <button id="theme-toggle" aria-label="Switch to dark theme" class="fixed z-40 top-2 right-2 btn">
+          <div id="sun-icon" class="text-3xl">🌣</div>
+          <div id="moon-icon" class="text-3xl">☾</div>
+        </button>
+      </div>
+</div>
+
+<script is:inline>
+    function init() {
+        const themeToggle = document.getElementById("theme-toggle");
+        let currentTheme = localStorage.getItem("theme");
+        switch (currentTheme) {
+            case "dark":
+                enableDarkTheme();
+                break;
+            case "light":
+                enableLightTheme();
+                break;
+            default:
+                enableDarkTheme();
+                break;
+        }
+
+        themeToggle.addEventListener("click", () => {
+            if (document.documentElement.hasAttribute("data-theme")) {
+                currentTheme =
+                    document.documentElement.getAttribute("data-theme");
+            }
+            toggleTheme(currentTheme);
+        });
+    }
+
+    init();
+    
+    function enableDarkTheme() {
+        document.documentElement.setAttribute("data-theme", "dark");
+        localStorage.setItem("theme", "dark");
+        document.getElementById("sun-icon").style.display = "none";
+        document.getElementById("moon-icon").style.display = "inline";
+    }
+
+    function enableLightTheme() {
+        document.documentElement.setAttribute("data-theme", "light");
+        localStorage.setItem("theme", "light");
+        document.getElementById("sun-icon").style.display = "inline";
+        document.getElementById("moon-icon").style.display = "none";
+    }
+
+    function toggleTheme(currentTheme) {
+        if (currentTheme) {
+            switch (currentTheme) {
+                case "dark":
+                    enableLightTheme();
+                    break;
+                case "light":
+                    enableDarkTheme();
+                    break;
+                default:
+                    enableDarkTheme();
+                    break;
+            }
+        } else {
+            enableDarkTheme();
+        }
+    }
+
+    document.addEventListener("astro:before-swap", init);
+
+    document.addEventListener("astro:after-swap", init);
+</script>
