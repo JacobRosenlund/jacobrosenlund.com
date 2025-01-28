@@ -1,12 +1,13 @@
 ---
 title: Tales of Site Publishing
-description: Talking about my journey publishing this site to GitHub Pages.
+description: Talking about my journey publishing this site to GitHub Pages
 readTime: "1"
 pubDate: Jan 24 2025
 heroImage: /github-pages.webp
 tags:
   - learning
   - journey
+  - web-dev
 ---
 Well, it's finally done! The site is up, and you can navigate to it. *Phew*!
 
