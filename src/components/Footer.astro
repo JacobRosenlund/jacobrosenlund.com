@@ -22,21 +22,14 @@ const today = new Date();
 
 <script is:inline>
   function init(){
-    const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
-      const { top, left, bottom, right } = el.getBoundingClientRect();
-      const { innerHeight, innerWidth } = window;
-      return partiallyVisible
-        ? ((top > 0 && top < innerHeight) ||
-          (bottom > 0 && bottom < innerHeight)) &&
-          ((left > 0 && left < innerWidth) || (right > 0 && 
-          right < innerWidth))
-        : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
-    };
-
+    const doc = document.documentElement;
     const backToTopButton = document.getElementById("back-to-top");
-    if (elementIsVisibleInViewport(backToTopButton)) {
+    
+    if (doc.clientHeight >= doc.scrollHeight - 75) {
       backToTopButton.style.display = "none";
     }
+
+    console.log(doc.clientHeight + ", " + doc.scrollHeight);
   }
 
   init();
