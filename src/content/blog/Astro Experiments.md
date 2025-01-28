@@ -7,6 +7,7 @@ heroImage: /astro-adventure.webp
 badge: First Post
 tags:
   - learning
+  - web-dev
 ---
 For a long while, I have wanted my own personal website. I actually wanted to write it from the ground up, but in the end I decided to go with a different route. Ultimately, this decision stemmed from a combination of two factors: time, and knowledge. 
 
