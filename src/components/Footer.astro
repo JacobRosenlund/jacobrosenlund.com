@@ -2,8 +2,14 @@
 const today = new Date();
 ---
 
+<noscript>
+  <style>
+    #back-to-top { display: none; }
+  </style>
+</noscript>
+
 <footer class="footer footer-center block mb-5 pt-10">
-  <dev class="btn btn-outline m-4" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Back to Top</dev>
+  <dev id="back-to-top" class="btn btn-outline m-4" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Back to Top</dev>
   <div class="pb-2">
     &copy; {today.getFullYear()} Jacob Rosenlund
   </div>
@@ -13,4 +19,28 @@ const today = new Date();
     <a href="https://astrofy-template.netlify.app/" target="_blank" class="font-bold">Astrofy Template ⚡️</a>
   </div>
 </footer>
-<style></style>
+
+<script is:inline>
+  function init(){
+    const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
+      const { top, left, bottom, right } = el.getBoundingClientRect();
+      const { innerHeight, innerWidth } = window;
+      return partiallyVisible
+        ? ((top > 0 && top < innerHeight) ||
+          (bottom > 0 && bottom < innerHeight)) &&
+          ((left > 0 && left < innerWidth) || (right > 0 && 
+          right < innerWidth))
+        : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
+    };
+
+    const backToTopButton = document.getElementById("back-to-top");
+    if (elementIsVisibleInViewport(backToTopButton)) {
+      backToTopButton.style.display = "none";
+    }
+  }
+
+  init();
+
+  document.addEventListener("astro:after-swap", init);
+  
+</script>

@@ -1,3 +1,9 @@
+<noscript>
+  <style>
+    #theme-toggle { display: none; }
+  </style>
+</noscript>
+
 <div>
   <div class="theme">
     <button
@@ -89,7 +95,7 @@
     }
   }
 
-  document.addEventListener("astro:before-swap", init);
+  // document.addEventListener("astro:before-swap", init); // Probably don't need?
 
   document.addEventListener("astro:after-swap", init);
 </script>
